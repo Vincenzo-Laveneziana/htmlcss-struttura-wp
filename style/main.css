@@ -3,13 +3,14 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #dedede;
+  font-family: 'Open Sans' ;
+}
+
 #page_body{
   width: 50%;
   margin: 10px auto;
-}
-
-body{
-  background: #dedede;
 }
 
 /* Sezione dell'header */
@@ -17,8 +18,7 @@ header{
   padding-top: 5px;
 }
 
-#img_apertura,
-#menu_scelta{
+#img_apertura{
   width: 100%;
   margin: 0 auto;
 }
@@ -29,10 +29,32 @@ header{
   border: 4px solid white;
 }
 
-#menu_scelta{
-  height: 50px;
-  background: green;
+#contenitore_menu{
+  margin: 0 auto;
+  background: gray;
+  line-height: 50px;
+  text-align: center;
 }
+
+.menu{
+  width: 100%;
+  padding: 0;
+}
+
+.menu li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu a{
+  display: inline-block;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: 16px;
+  margin: 0 5px;
+  color: white;
+}
+
 
 /* Sezione del main */
 .contenitore_main{
