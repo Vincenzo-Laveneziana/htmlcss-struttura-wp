@@ -1,3 +1,30 @@
 *{
   margin: 0;
+  box-sizing: border-box;
 }
+
+#page_body{
+  width: 80%;
+  height: 100vh;
+  background: grey;
+  margin: 10px auto;
+}
+
+/* Sezione dell'header */
+ /* WARNING: la larghezza domani verrò impostata a 100%  */
+
+#img_apertura{
+  width: 99%;
+  height: 250px;
+  background: blue;
+  margin: 0 auto;
+}
+
+#menu_scelta{
+  width: 99%;
+  height: 50px;
+  background: green;
+  margin: 0 auto;
+}
+
+/* Sezione del main */
