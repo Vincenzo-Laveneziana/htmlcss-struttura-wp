@@ -22,7 +22,7 @@ body{
  /* parte dedicata alle img header */
 #img_apertura{
   width: 100%;
-  height: 300px;
+  height: 350px;
   border: 10px solid white;
   background-image: url('../img/background-banner.jpeg');
   background-position: center;
@@ -53,7 +53,7 @@ body{
 #contenitore_menu{
   margin: 0 auto;
   background: gray;
-  line-height: 50px;
+  line-height: 40px;
   text-align: center;
 }
 
@@ -71,7 +71,8 @@ body{
   display: inline-block;
   text-decoration: none;
   font-variant: small-caps;
-  font-size: 20px;
+  font-size: 15px;
+  font-weight: bold;
   color: white;
   padding: 0 10px;
 }
@@ -105,19 +106,27 @@ body{
 .box-sx{
   background: white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 2px;
   margin-bottom: 20px;
 }
 
-.box-sx i{
+/* opzione 1 */
+/* .box-sx i{
   display:inline-block;
   font-size: 20px;
+} */
+
+/* opzione 2 */
+.box-sx img{
+  /* margin-bottom: 30px; */
+  padding: 2px 2px 30px 5px;
 }
 
 .box-sx h2{
   display: inline-block;
   color: #825913;
   font-size: 25px;
+  font-weight: 400;
 }
 
 .box-sx article > a{
@@ -126,7 +135,7 @@ body{
 
 .box-sx a > p{
   color: green;
-  margin: 15px;
+  padding: 5px 10px;
 }
 
 /* colonna e box mid */
@@ -146,11 +155,12 @@ body{
   font-variant-caps: small-caps;
   color: #825913;
   font-size: 30px;
+  text-shadow: 3px 3px #e2e2e2;
 }
 
 .box-1-mid{
   margin-top: 30px;
-  font-weight:  500;
+  font-weight:  400;
   line-height: 25px;
 }
 
@@ -165,18 +175,18 @@ body{
   background: white;
   margin-bottom: 50px;
   padding: 20px;
-  margin-bottom: 30px;
 }
 
 .box-dx h4{
   color: #825913;
   font-size: 25px;
+  margin-bottom: 30px;
 }
 
 .box-1-dx,
 .box-2-dx,
 .box-3-dx{
-  font-weight:  500;
+  font-weight:  400;
   line-height: 30px;
 }
 
@@ -192,16 +202,20 @@ body{
   padding: 5px;
 }
 
-.footer_text h3 , a{
+.footer_text h3{
   text-decoration: none;
   color: grey;
 }
 
-.footer_icon li {
+.footer_icon li{
   display: inline-block;
   padding: 30px;
   margin: 0 10%;
   list-style: none;
   font-size: 40px;
+}
+
+.footer_icon a{
+  text-decoration: none;
   color: grey;
 }
