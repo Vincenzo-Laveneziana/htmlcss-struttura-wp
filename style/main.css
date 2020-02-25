@@ -2,13 +2,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body{
   background-image: url('../img/background-pagina.png');
 }
 
 #page_body{
-  width: 100%; /* avra un resize automatico */
-  max-width: 1000px;
+  width: 90%; /* avra un resize automatico */
+  max-width: 900px;
   margin: 30px auto;
   font-family: 'Roboto';
 }
@@ -18,6 +19,7 @@ body{
   font-family: 'Montserrat';
 }
 
+ /* parte dedicata alle img header */
 #img_apertura{
   width: 100%;
   height: 300px;
@@ -47,6 +49,7 @@ body{
   font-size: 35px;
 }
 
+/* parte riguardante menu header */
 #contenitore_menu{
   margin: 0 auto;
   background: gray;
@@ -86,43 +89,47 @@ body{
   clear: both;
 }
 
+/* posizionamento colonne */
 .col-sx,
 .col-mid,
 .col-dx{
   float: left;
 }
 
+/* colonna e box sx */
 .col-sx{
   width: 25%;
   padding-right: 30px;
 }
 
-.box-1-sx{
+.box-sx{
   background: white;
   border-radius: 5px;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
-.box-1-sx i{
+.box-sx i{
   display:inline-block;
   font-size: 20px;
 }
 
-.box-1-sx h2{
+.box-sx h2{
   display: inline-block;
   color: #825913;
   font-size: 25px;
 }
 
-.box-1-sx article > a{
+.box-sx article > a{
   text-decoration: none;
 }
 
-.box-1-sx a > p{
+.box-sx a > p{
   color: green;
   margin: 15px;
 }
 
+/* colonna e box mid */
 .col-mid{
   width: 50%;
   padding: 0 15px;
@@ -132,6 +139,7 @@ body{
   border-radius: 5px;
   background: white;
   padding: 15px;
+  margin-bottom: 30px;
 }
 
 .box-mid h3{
@@ -146,6 +154,7 @@ body{
   line-height: 25px;
 }
 
+/* colonna e box dx */
 .col-dx{
   width: 25%;
   padding-left: 30px;
@@ -156,6 +165,7 @@ body{
   background: white;
   margin-bottom: 50px;
   padding: 20px;
+  margin-bottom: 30px;
 }
 
 .box-dx h4{
@@ -166,24 +176,19 @@ body{
 .box-1-dx,
 .box-2-dx,
 .box-3-dx{
-  margin-top: 30px;
   font-weight:  500;
   line-height: 30px;
 }
-
 
 /* contenitore_footer */
 .contenitore_footer{
   width: 100%;
   background: white;
   border-radius: 5px;
-  overflow: hidden;
   text-align: center;
 }
 
 .footer_text{
-  height: 30px;
-  border-bottom: 1px solid grey;
   padding: 5px;
 }
 
@@ -192,11 +197,7 @@ body{
   color: grey;
 }
 
-.social{
-  padding: 0;
-}
-
-.social li {
+.footer_icon li {
   display: inline-block;
   padding: 30px;
   margin: 0 10%;
