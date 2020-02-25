@@ -23,7 +23,6 @@ body{
   height: 300px;
   border: 4px solid white;
   background-image: url('../img/background-banner.jpeg');
-  /* background-image: url('../img/logo.png'); */
   background-position: center;
   background-size: cover;
   position: relative;
@@ -71,7 +70,7 @@ body{
   font-variant: small-caps;
   font-size: 20px;
   color: white;
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 
@@ -111,15 +110,22 @@ body{
 .col-mid{
   width: 50%;
   padding: 0 10px;
-}
-
-.box-1-mid{
   border: 1px solid black;
   border-radius: 15px;
   background: white;
-  padding: 5px;
-  height: 200px;
-  /* margin: 0 10px; */
+  padding: 20px;
+}
+
+.col-mid h3{
+  font-variant-caps: small-caps;
+  color: #825913;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.box-1-mid{
+  font-weight:  500;
+  line-height: 25px;
 }
 
 .col-dx{
