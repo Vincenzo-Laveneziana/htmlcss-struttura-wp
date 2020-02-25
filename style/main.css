@@ -192,7 +192,7 @@ body{
 
 /* contenitore_footer */
 .contenitore_footer{
-  width: 100%;
+  /* width: 100%; */
   background: white;
   border-radius: 5px;
   text-align: center;
@@ -209,13 +209,12 @@ body{
 
 .footer_icon li{
   display: inline-block;
-  padding: 30px;
-  margin: 0 10%;
+  padding: 3% 11%;
   list-style: none;
   font-size: 40px;
 }
 
 .footer_icon a{
   text-decoration: none;
-  color: grey;
+  color: #c3c3c3;
 }
