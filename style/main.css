@@ -2,32 +2,50 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 body{
-  background: #dedede;
-  font-family: 'Open Sans' ;
+  background-image: url('../img/background-pagina.png');
 }
 
 #page_body{
   width: 70%;
   max-width: 1200px;
   margin: 10px auto;
+  font-family: 'Roboto';
 }
 
 /* Sezione dell'header */
-header{
-  padding-top: 5px;
+#contenitore_header{
+  font-family: 'Montserrat';
 }
 
 #img_apertura{
   width: 100%;
-  margin: 0 auto;
+  height: 300px;
+  border: 4px solid white;
+  background-image: url('../img/background-banner.jpeg');
+  /* background-image: url('../img/logo.png'); */
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-#img_apertura{
-  height: 250px;
-  background: grey;
-  border: 4px solid white;
+.logo{
+  text-align: center;
+  position: relative;
+  top:10%;
+}
+
+.logo img{
+  position: relative;
+  width: 50%;
+  max-width: 400px;
+}
+
+.logo h2{
+  position: relative;
+  font-variant-caps: small-caps;
+  color: white;
+  font-size: 35px;
 }
 
 #contenitore_menu{
@@ -63,7 +81,7 @@ header{
   margin: 10px auto;
 }
 
-.contenitore_main::after{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
@@ -77,63 +95,63 @@ header{
 
 .col-sx{
   width: 25%;
+  padding-right: 10px;
 }
 
-.aside{
+.box-1-sx{
   background: white;
   border: 1px solid black;
   border-radius: 15px;
   padding: 5px;
+
   height: 350px;
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
 
 .col-mid{
   width: 50%;
-  height: 250px;
+  padding: 0 10px;
 }
 
-.text-mid{
+.box-1-mid{
   border: 1px solid black;
   border-radius: 15px;
   background: white;
   padding: 5px;
   height: 200px;
-  margin: 0 10px;
+  /* margin: 0 10px; */
 }
 
 .col-dx{
   width: 25%;
+  padding-left: 10px;
 }
 
-.section_one{
+.box-1-dx{
   height: 250px;
   border: 1px solid black;
   border-radius: 15px;
   background: white;
   margin-bottom: 15px;
   padding: 5px;
-  margin-left: 10px;
 }
 
-.section_two{
+.box-2-dx{
   height: 250px;
   border: 1px solid black;
   border-radius: 15px;
   background: white;
   margin-bottom: 15px;
   padding: 5px;
-  margin-left: 10px;
 }
 
-.section_three{
+.box-3-dx{
   height: 250px;
   border: 1px solid black;
   border-radius: 15px;
   background: white;
   margin-bottom: 15px;
   padding: 5px;
-  margin-left: 10px;
 }
 
 
@@ -143,7 +161,22 @@ header{
   height: 100px;
   background: white;
   border-radius: 15px;
-  margin: 0 auto;
-  padding: 5px;
   border: 1px solid black;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer_text{
+  height: 30px;
+  background: #aaa;
+  padding: 5px;
+}
+
+.social{
+  padding: 0;
+}
+
+.social li {
+  list-style: none;
+  float: left;
 }

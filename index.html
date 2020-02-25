@@ -3,9 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Tema Wordpress</title>
+
     <link rel="stylesheet" href="style/main.css">
     <link rel="shortcut icon" href="img/add.png"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
   </head>
 
 
@@ -14,11 +17,17 @@
     <div id="page_body">
 
       <!-- Parte iniziale del sito -->
-      <header id="position">
+      <header id="contenitore_header">
+
         <!-- parte dedicata all'immagine -->
         <div id="img_apertura">
-          immagine
+          <div class="logo">
+            <img class="logo" src="img/logo.png" alt="logo">
+            <h2>another beatiful organic theme </h2>
+          </div>
+
         </div>
+
         <!-- parte dedicata al menu -->
         <div id="contenitore_menu">
           <ul class="menu">
@@ -37,28 +46,31 @@
       <!-- parte centrale del sito -->
       <main>
 
-        <div class="contenitore_main">
+        <div class="contenitore_main clearfix">
+
+          <!-- colonna sinistra -->
           <div class="col-sx">
-            <aside class="aside">
+            <aside class="box-1-sx">
               colonna sinistra
             </aside>
           </div>
 
+          <!-- colonna centrale -->
           <div class="col-mid">
-            <p class="text-mid">colonna centrale.</p>
-
+            <p class="box-1-mid">colonna centrale.</p>
           </div>
 
+          <!-- colonna destra -->
           <div class="col-dx">
-            <section class="section_one">
+            <section class="box-1-dx">
               <p>colonna destra <br> box 1</p>
             </section>
 
-            <section class="section_two">
+            <section class="box-2-dx">
               <p>colonna destra <br> box 2</p>
             </section>
 
-            <section class="section_three">
+            <section class="box-2-dx">
               <p>colonna destra <br> box 3</p>
             </section>
 
@@ -69,10 +81,16 @@
       </main>
 
 
-      <footer>
+      <footer class="contenitore_footer">
 
-        <div class="contenitore_footer">
-          footer
+
+        <div class="footer_text" >
+          <h3>rpova</h>
+          <ul class="social">
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+          </ul>
         </div>
 
       </footer>
