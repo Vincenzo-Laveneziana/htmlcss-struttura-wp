@@ -7,7 +7,7 @@ body{
 }
 
 #page_body{
-  width: 70%;
+  width: 75%;
   max-width: 1200px;
   margin: 10px auto;
   font-family: 'Roboto';
@@ -40,7 +40,7 @@ body{
   max-width: 400px;
 }
 
-.logo h2{
+.logo h1{
   position: relative;
   font-variant-caps: small-caps;
   color: white;
@@ -101,25 +101,47 @@ body{
   background: white;
   border-radius: 5px;
   padding: 5px;
-  height: 350px;
+}
+
+.box-1-sx i{
+  display:inline-block;
+  font-size: 20px;
+}
+
+.box-1-sx h2{
+  display: inline-block;
+  color: #825913;
+  font-size: 25px;
+}
+
+.box-1-sx article > a{
+  text-decoration: none;
+}
+
+.box-1-sx a > p{
+  color: green;
+  margin: 15px;
 }
 
 .col-mid{
   width: 50%;
-  padding: 0 30px;
-  border-radius: 5px;
-  background: white;
-  padding: 20px;
+  padding: 0 15px;
 }
 
-.col-mid h3{
+.box-mid{
+  border-radius: 5px;
+  background: white;
+  padding: 15px;
+}
+
+.box-mid h3{
   font-variant-caps: small-caps;
   color: #825913;
-  margin-bottom: 30px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .box-1-mid{
+  margin-top: 30px;
   font-weight:  500;
   line-height: 25px;
 }
@@ -133,21 +155,20 @@ body{
   border-radius: 5px;
   background: white;
   margin-bottom: 50px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .box-dx h4{
-  font-variant-caps: small-caps;
   color: #825913;
-  margin-bottom: 30px;
   font-size: 25px;
 }
 
 .box-1-dx,
 .box-2-dx,
 .box-3-dx{
+  margin-top: 30px;
   font-weight:  500;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 
